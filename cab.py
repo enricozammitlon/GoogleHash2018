@@ -12,11 +12,10 @@ class cab:
         self.steps_left = steps_left
 
     def moveTo(self, end_loc):
-        while self.x != end_loc[0]:
-            if self.x < end_loc[0]:
-                self.x += 1
-            else:
-                self.x -= 1
+        self.x = end_loc[0]
+        self.y = end_loc[1]:
 
     def getCurrentLoc(self):
         return [self.x,self.y]
+
+    def assign(self,jobDetails)
