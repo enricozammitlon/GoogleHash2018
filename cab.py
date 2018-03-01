@@ -7,7 +7,7 @@ class cab:
     def __init__(self, start_loc, end_loc, steps_left):
         self.x = start_loc[0]
         self.y = start_loc[1]
-        self.available = True #boolean
+        self.available = True
         self.end_loc = end_loc
         self.steps_left = steps_left
 
