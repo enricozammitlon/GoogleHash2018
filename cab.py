@@ -8,12 +8,29 @@ class cab:
         self.x = 0
         self.y = 0
         self.available = True
+        self.stepsTaken=0
+"""
+    def moveUp(self):
+        self.y +=1
+        self.stepsTaken+=1
 
-    def moveTo(self, end_loc):
-        self.x = end_loc[0]
-        self.y = end_loc[1]:
+    def moveDown(self):
+        self.y -=1
+        self.stepsTaken+=1
 
+    def moveRight(self):
+        self.x +=1
+        self.stepsTaken+=1
+
+    def moveLeft(self):
+        self.x -=1
+        self.stepsTaken+=1
+"""
     def getCurrentLoc(self):
         return [self.x,self.y]
 
-    def assign(self,jobDetails)
+    def assign(self,jobDetails):
+        self.available=False
+
+    def isAvailable(self):
+        return self.available
