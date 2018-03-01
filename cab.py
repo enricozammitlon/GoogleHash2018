@@ -17,3 +17,6 @@ class cab:
                 self.x += 1
             else:
                 self.x -= 1
+
+    def getCurrentLoc(self):
+        return [self.x,self.y]
