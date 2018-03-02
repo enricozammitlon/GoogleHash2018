@@ -31,6 +31,7 @@ class cab:
 
     def assign(self,jobDetails):
         self.available=False
+        
 
     def isAvailable(self):
         return self.available
